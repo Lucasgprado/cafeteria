@@ -62,9 +62,9 @@ nav ul li a:hover {
   /* background-color: rgb(255, 255, 255); */
 }
 
-/* Criaão da formatação do rodapé(footer) */
+/* Criação da formatação do rodapé(footer) */
 footer {
-  background-color: royalblue;
+  background-color: rgb(17, 0, 255);
   text-align: center;
   color: black;
   font-family: IBM Plex Sans;
@@ -83,4 +83,116 @@ div ul li {
 div a {
   color: black;
   text-decoration: none;
+}
+
+main {
+  /* vamos aplicar uma margem interna de 20px
+  utilizaremos o comando padding */
+  padding: 10px;
+}
+
+h2 {
+  font-family: Titillium Web;
+  color: rgb(0, 0, 0);
+  font-size: 23pt;
+  border-bottom: 3px solid rgb(17, 0, 255);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-family: Comfortaa;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-size: 17pt;
+  margin-bottom: 20px;
+  letter-spacing: 7px;
+}
+
+p {
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: justify;
+  /* Aplicaremos um comando que aumenta a altura da linha. Esse efeito
+  simula o espaçamento entre linhas encontrado no Word. O comando é
+  line-height */
+  line-height: 25px;
+  margin-bottom: 25px;
+  font-family: Playfair Display;
+  font-size: 14pt;
+}
+
+#home {
+  text-align: center;
+}
+
+#home img {
+  height: 400px;
+  width: 400px;
+  margin: 20px;
+  /* Vamos aplicar um efeito de transparencia
+  com o comando opacity. Onde os valores 1 é 
+  totalmente visivel e 0 é totalmente transparente */
+  opacity: 0.8;
+  border-radius: 50%;
+  transition: ease 0.8s;
+}
+
+#home img:hover {
+  opacity: 1;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+#acafeteria {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#acafeteria img {
+  width: 1000px;
+  height: 500px;
+  margin-bottom: 20px;
+}
+
+#video {
+  text-align: center;
+}
+
+/* Abaixo a formatação para a pagina cardapio */
+
+#container,
+#linha,
+#imagem,
+#texto {
+  /* border: 1px solid red; */
+}
+
+#container {
+  display: inline-block;
+}
+
+#linha {
+  display: table;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#imagem img {
+  width: 200px;
+  height: 200px;
+}
+
+#imagem {
+  width: 200px;
+  height: 200px;
+  /* Fazer a imagem flutuar para a esquerda */
+  float: left;
+}
+
+#texto {
+  padding: 20px;
+  width: 80%;
+  float: left;
 }
