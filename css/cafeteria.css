@@ -201,3 +201,59 @@ p {
   width: 80%;
   float: left;
 }
+
+form {
+  box-shadow: 0 5px 10px blue;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  font-family: Titillium Web;
+}
+label {
+  /* para dispor os elementos umm abaixo do outro utilizaremos
+  o comando display block */
+  display: block;
+  /* aplicar o negrito usamos o comando font-weight com o
+  valor bold */
+  font-weight: bold;
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+  width: 97%;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+input[type="tel"] {
+  width: 20%;
+}
+#sexo {
+  display: block;
+  margin-bottom: 15px;
+}
+select {
+  padding: 10px;
+  width: 25%;
+}
+select.option:hover {
+  background-color: blue;
+  color: blue;
+  cursor: pointer;
+  padding: 5px;
+}
+
+textarea {
+  width: 60%;
+  height: 100px;
+  display: block;
+  margin-bottom: 15pt;
+}
+
+input[type="submit"] {
+  display: block;
+  border: 0;
+  padding: 10px;
+  cursor: pointer;
+}
